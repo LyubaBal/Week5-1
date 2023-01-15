@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Machina ;
+    src: url('/assets/fonts/NeueMachinaBold.ttf');
+
+    font-family: Gotham Pro ;
+    src: url('/assets/fonts/gothampro_medium.ttf')
+}
+
+.golova, .header_link, .razrabotka, .digital {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.proect, .glavnoe {
+    font-family: 'Machina';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.golova {
+    position: absolute;
+    width: 157px;
+    height: 42px;
+    left: 200px;
+    top: 40px;
+    
+    font-size: 32px;
+    line-height: 130%;
+    
+    color: #252525}
+    
+    .tech {
+        color: #5364FF}
+
+    ul.nav {
+        display: inline;
+        list-style: none;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        
+        position: absolute;
+        width: 488px;
+        height: 19px;
+        left: 717px;
+        top: 51px;
+                
+        letter-spacing: -0.03em;
+        }
+
+    ul.nav li {
+        display: inline;
+        text-decoration: none;}
+
+    .header_link:hover, .header_link:focus, .header_link:active {opacity: 0,75;}
+    .header_link {color: #252525}
+    .header_link {text-decoration: none;}
+    .header_link {
+        font-size: 15px;
+        line-height: 130%;}
+
+    .proect {position: absolute;
+        width: 127px;
+        height: 30px;
+        top: -7px;
+        border-left: 8px;
+
+        text-decoration: none;
+        
+        font-size: 14px;
+        line-height: 16px;
+        
+        text-align: center;
+        color: #ffffff;
+            
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+   
+        background-color: #5364FF;
+        border: none;
+        border-radius: 15px;}
+     
+    .glavnoe {
+        position: absolute;
+        width: 801px;
+        height: 176px;
+        left: 200px;
+        top: 317px;
+
+        font-size: 160px;
+        line-height: 110%;
+
+        letter-spacing: -5px;
+
+        color: #252525;
+    }
+
+    .razrabotka {position: absolute;
+        width: 198px;
+        height: 22px;
+        left: 200px;
+        top: 482px;
+
+        font-size: 20px;
+        line-height: 110%;
+
+        text-decoration-line: underline;
+        text-decoration-color: rgb(207, 207, 207);
+
+        color: #252525;}
+    
+    .digital {position: absolute;
+        width: 64px;
+        height: 22px;
+        left: 422px;
+        top: 482px;
+       
+        font-size: 20px;
+        line-height: 110%;
+        
+        text-decoration-line: underline;
+        text-decoration-color: rgb(207, 207, 207);
+        
+        color: #252525;
+        }
+
+        .background-image {
+            position: absolute;
+            z-index: -1;
+
+            width: 1284.17px;
+            height: 900.43px;
+            left: 390px;
+            top: 0px;
+            
+            background-image: url("../img/shnur.jpg");
+            background-attachment: fixed;
+            transform: rotate(4deg);}
+
+        .footer {
+            display: flex;
+            height: 880px;
+            align-items: flex-end;           
+        }
