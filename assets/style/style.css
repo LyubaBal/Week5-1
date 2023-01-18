@@ -19,12 +19,10 @@
 }
 
 .golova {
-    position: absolute;
-    width: 157px;
-    height: 42px;
-    left: 200px;
-    top: 40px;
-    
+    display: flex;
+    margin-top: 40px;
+    margin-left: 200px;
+     
     font-size: 32px;
     line-height: 130%;
     
@@ -34,7 +32,6 @@
         color: #5364FF}
 
     ul.nav {
-        display: inline;
         list-style: none;
 
         display: flex;
@@ -43,18 +40,18 @@
         align-items: center;
         padding: 0px;
         gap: 24px;
-        
-        position: absolute;
+       
+        margin-left: 717px;
+        margin-top: -6.5vh;
+       
         width: 488px;
         height: 19px;
-        left: 717px;
-        top: 51px;
-                
+       
         letter-spacing: -0.03em;
         }
 
     ul.nav li {
-        display: inline;
+        display: flex;
         text-decoration: none;}
 
     .header_link:hover, .header_link:focus, .header_link:active {opacity: 0,75;}
@@ -64,10 +61,16 @@
         font-size: 15px;
         line-height: 130%;}
 
-    .proect {position: absolute;
+    .proect {
+        display: flex;
+        margin-top: 0vh;
+        margin-left: 1vw;
+        justify-content: center;
+        align-items: center;
+       
         width: 127px;
         height: 30px;
-        top: -7px;
+       
         border-left: 8px;
 
         text-decoration: none;
@@ -75,24 +78,20 @@
         font-size: 14px;
         line-height: 16px;
         
-        text-align: center;
         color: #ffffff;
-            
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-   
+           
         background-color: #5364FF;
         border: none;
         border-radius: 15px;}
      
     .glavnoe {
-        position: absolute;
+        display: flex;
+        margin-top: 30vh;
+        margin-left: 200px;
+        
         width: 801px;
         height: 176px;
-        left: 200px;
-        top: 317px;
-
+        
         font-size: 160px;
         line-height: 110%;
 
@@ -101,12 +100,15 @@
         color: #252525;
     }
 
-    .razrabotka {position: absolute;
+    .razrabotka {
+        display: flex;
+
+        margin-top: 2vh;
+        margin-left: 13vw;
+       
         width: 198px;
         height: 22px;
-        left: 200px;
-        top: 482px;
-
+       
         font-size: 20px;
         line-height: 110%;
 
@@ -115,12 +117,15 @@
 
         color: #252525;}
     
-    .digital {position: absolute;
+    .digital {
+        display: flex;
+
+        margin-top: -3vh;
+        margin-left: 28vw;
+        
         width: 64px;
         height: 22px;
-        left: 422px;
-        top: 482px;
-       
+              
         font-size: 20px;
         line-height: 110%;
         
@@ -131,20 +136,21 @@
         }
 
         .background-image {
-            position: absolute;
-            z-index: -1;
+           display: flex;
+            margin-left: 56vw;
+            margin-top: -52vh;
 
-            width: 1284.17px;
-            height: 900.43px;
-            left: 390px;
-            top: 0px;
-            
+            width: 600px;
+            height: 790px;
+                      
             background-image: url("../img/shnur.jpg");
-            background-attachment: fixed;
+        
             transform: rotate(4deg);}
 
         .footer {
             display: flex;
-            height: 880px;
-            align-items: flex-end;           
+            height: 10px;
+            align-items: flex-end;   
+            
+            margin-top: -5vh;
         }
